@@ -7,9 +7,11 @@ import utils.debugExt
 import cats.syntax.parallel._
 import scala.concurrent.duration._
 
+/**
+  * Ref: a purely functional atomic reference
+  */
 object Refs extends IOApp.Simple {
 
-  // Ref: a purely functional atomic reference
   val atomicMol: IO[Ref[IO, Int]] = Ref[IO].of(42)
   val atomicMol_v2: IO[Ref[IO, Int]] = IO.ref(42)
   // a Ref is simply a wrapper of a value, in a FP way, thus return an effect
