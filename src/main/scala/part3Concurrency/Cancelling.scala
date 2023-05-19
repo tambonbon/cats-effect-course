@@ -98,6 +98,17 @@ object Cancelling extends IOApp.Simple {
     // [io-compute-5] Authentication successful.
 
     authProgram
+    // [io-compute-6] Input password:
+    // [io-compute-6] (typing password)
+    // [io-compute-4] Authencitation timeout, attempting cancel...
+    // [io-compute-8] verifying...
+    // [io-compute-10] Authentication successful.
+
+    authFlowUsePoll
+    // [io-compute-9] Input password:
+    // [io-compute-9] (typing password)
+    // [io-compute-8] verifying...
+    // [io-compute-2] Authentication successful.
 }
 
 object CancellingExercise extends IOApp.Simple {
