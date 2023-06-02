@@ -86,29 +86,29 @@ object Cancelling extends IOApp.Simple {
     cancellationOfDoom
     // [io-compute-9] Payment running, don't cancel me
     // [io-compute-4] MEGA CANCEL OF DOOM
-    noCancellationOfDoom
-    // [io-compute-10] Payment running, don't cancel me
-    // [io-compute-8] attempting cancellation..
-    // [io-compute-8] Payment completed
+    // noCancellationOfDoom
+    // // [io-compute-10] Payment running, don't cancel me
+    // // [io-compute-8] attempting cancellation..
+    // // [io-compute-8] Payment completed
 
-    authFlow
-    // [io-compute-2] Input password:
-    // [io-compute-2] (typing password)
-    // [io-compute-5] verifying...  
-    // [io-compute-5] Authentication successful.
+    // authFlow
+    // // [io-compute-2] Input password:
+    // // [io-compute-2] (typing password)
+    // // [io-compute-5] verifying...  
+    // // [io-compute-5] Authentication successful.
 
-    authProgram
-    // [io-compute-6] Input password:
-    // [io-compute-6] (typing password)
-    // [io-compute-4] Authencitation timeout, attempting cancel...
-    // [io-compute-8] verifying...
-    // [io-compute-10] Authentication successful.
+    // authProgram
+    // // [io-compute-6] Input password:
+    // // [io-compute-6] (typing password)
+    // // [io-compute-4] Authencitation timeout, attempting cancel...
+    // // [io-compute-8] verifying...
+    // // [io-compute-10] Authentication successful.
 
-    authFlowUsePoll
-    // [io-compute-9] Input password:
-    // [io-compute-9] (typing password)
-    // [io-compute-8] verifying...
-    // [io-compute-2] Authentication successful.
+    // authFlowUsePoll
+    // // [io-compute-9] Input password:
+    // // [io-compute-9] (typing password)
+    // // [io-compute-8] verifying...
+    // // [io-compute-2] Authentication successful.
 }
 
 object CancellingExercise extends IOApp.Simple {
